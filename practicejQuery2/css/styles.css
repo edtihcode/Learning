@@ -1,0 +1,39 @@
+body{
+  background-color: green;
+}
+button{
+  border: solid red 1px;
+  padding: 10px;
+  align-items: center;
+
+}
+
+
+form{
+border: 1px red solid;
+padding: 10px;
+align-content: center;
+
+}
+::placeholder{
+  color: white;
+  font-style: italic;
+  padding: 10px;
+
+}
+
+input,button{
+  margin: 20px;
+  font-size: 2em;
+  border-radius: 20px;
+  border:  4px;
+  background-color: grey;
+  align-items: center;
+}
+button:hover {
+  background-color: red;
+}
+
+#error {
+  visibility: hidden;
+}
