@@ -5,6 +5,7 @@ $(document).ready(function (){
     var passwordText = $("#password").val();
 
     console.log(validateEmail(emailText), passwordText);
+    $("#error").css("visibility", "visible")
 
     if (emailText == "hello@gmail.com") {
         if (passwordText == "123456") {
